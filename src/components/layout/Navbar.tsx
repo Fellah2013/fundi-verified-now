@@ -24,7 +24,7 @@ export const Navbar: React.FC = () => {
     { name: 'Subscriptions', path: '/subscriptions' },
   ];
 
-  const logoUrl = "https://storage.googleapis.com/dala-prod-public-storage/attachments/ab1da22d-5cd6-4d1d-8bd6-481183c231d1/1779221220588_Tuma_Fundi_Logo_Updated.jpeg";
+  const logoUrl = "/generic-service-logo.svg";
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -32,7 +32,7 @@ export const Navbar: React.FC = () => {
         <Link to="/" className="flex items-center group">
           <img 
             src={logoUrl} 
-            alt="Tuma Fundi Logo" 
+            alt="Service Marketplace" 
             className="h-16 w-auto object-contain transition-transform group-hover:scale-105"
           />
         </Link>
