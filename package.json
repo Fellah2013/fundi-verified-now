@@ -1,5 +1,5 @@
 {
-  "name": "react-starter-template",
+  "name": "fundi-verified-now",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,7 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "preview": "vite preview --host 0.0.0.0",
-    "build:watch": "vite build --watch > build.log 2>&1",
-    "watch:errors": "node dala-internal-watch-build-errors.js",
-    "preview:dev": "concurrently \"npm run watch:errors\""
+    "build:watch": "vite build --watch > build.log 2>&1"
   },
   "packageManager": "bun@1.2.22",
   "dependencies": {
