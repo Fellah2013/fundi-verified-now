@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 
 export const Footer: React.FC = () => {
-  const logoUrl = "https://storage.googleapis.com/dala-prod-public-storage/attachments/ab1da22d-5cd6-4d1d-8bd6-481183c231d1/1779221220588_Tuma_Fundi_Logo_Updated.jpeg";
+  const logoUrl = "/generic-service-logo.svg";
 
   return (
     <footer className="bg-slate-900 text-slate-300 pt-16 pb-8 border-t border-slate-800">
@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
             <Link to="/" className="flex items-center group">
               <img 
                 src={logoUrl} 
-                alt="Tuma Fundi Logo" 
+                alt="Service Marketplace" 
                 className="h-16 w-auto object-contain transition-transform group-hover:scale-105"
               />
             </Link>
