@@ -23,7 +23,7 @@ import { motion } from 'framer-motion';
 
 export const Home: React.FC = () => {
   const { user } = useApp();
-  const logoUrl = "https://storage.googleapis.com/dala-prod-public-storage/attachments/ab1da22d-5cd6-4d1d-8bd6-481183c231d1/1779221220588_Tuma_Fundi_Logo_Updated.jpeg";
+  const logoUrl = "/generic-service-logo.svg";
 
   return (
     <div className="flex flex-col gap-16">
