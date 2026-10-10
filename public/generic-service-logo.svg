@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" role="img" aria-labelledby="title">
+  <title id="title">Service marketplace</title>
+  <rect width="240" height="80" rx="14" fill="#f8fafc"/>
+  <circle cx="40" cy="40" r="27" fill="#2563eb"/>
+  <path d="M29 29a13 13 0 0 0 16 16l9 9a5 5 0 0 0 7-7l-9-9a13 13 0 0 0-16-16l7 7-7 7z" fill="#fff"/>
+  <text x="78" y="36" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#0f172a">Service</text>
+  <text x="78" y="55" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#2563eb">Marketplace</text>
+</svg>
